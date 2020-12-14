@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="fare" />
+        <module name="search" />
+        <module name="eureka" />
+        <module name="home" />
+        <module name="book" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="book" target="11" />
+      <module name="config" target="11" />
+      <module name="eureka" target="11" />
+      <module name="fare" target="11" />
+      <module name="home" target="11" />
+      <module name="search" target="11" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="book" options="-parameters" />
+      <module name="config" options="-parameters" />
+      <module name="eureka" options="-parameters" />
+      <module name="fare" options="-parameters" />
+      <module name="home" options="-parameters" />
+      <module name="search" options="-parameters" />
+    </option>
+  </component>
+</project>
